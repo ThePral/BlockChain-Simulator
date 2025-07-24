@@ -1,5 +1,5 @@
-from block import Block
-from transaction import Transaction
+from Modules.block import Block
+from Modules.transaction import Transaction
 
 class Blockchain:
     def __init__(self):

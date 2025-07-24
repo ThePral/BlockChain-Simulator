@@ -1,5 +1,5 @@
 from ecdsa import SigningKey, SECP256k1
-from transaction import Transaction
+from Modules.transaction import Transaction
 
 class Wallet:
     def __init__(self, private_key=None):
