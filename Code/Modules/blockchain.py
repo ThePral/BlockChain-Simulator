@@ -4,7 +4,7 @@ from Modules.transaction import Transaction
 class Blockchain:
     def __init__(self):
         self.chain = [self.create_genesis_block()]
-        self.difficulty = 2
+        self.difficulty = 3
         self.pending_transactions = []
         self.mining_reward = 50
 
